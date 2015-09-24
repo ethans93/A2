@@ -13,25 +13,25 @@ public static void main (String [] args){
 
 	Scanner keyboard = new Scanner (System.in);
 
-	double x1, x2, x3, x4, x5, sum, average;
+	double number1, number2, number3, number4, number5, sum, average;
 	/*
-	the five numbers the user puts in will be stored as x1-x5, double is used to 
+	the five numbers the user puts in will be stored as number1-number5, double is used to 
 	account for non-integer numbers
 	*/
 	
 	System.out.println("Please enter 5 numbers, separated by spaces, then hit enter:");
-	x1 = keyboard.nextDouble();
-	x2 = keyboard.nextDouble();
-	x3 = keyboard.nextDouble();
-	x4 = keyboard.nextDouble();
-	x5 = keyboard.nextDouble();
+	number1 = keyboard.nextDouble();
+	number2 = keyboard.nextDouble();
+	number3 = keyboard.nextDouble();
+	number4 = keyboard.nextDouble();
+	number5 = keyboard.nextDouble();
 	//all five variables are now entered
 
-	sum = x1+x2+x3+x4+x5;
+	sum = number1+number2+number3+number4+number5;
 	average = sum/5;
 	/*
 	The five variables the user input, the sum of all five is found and stored as the 
-	variable "sum", the average of the x1-x5 is found and stored in the 
+	variable "sum", the average of the number1-number5 is found and stored in the 
 	variable "average".
 	*/
 	
